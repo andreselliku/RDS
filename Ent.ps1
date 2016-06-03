@@ -18,24 +18,24 @@ $stopwatch = [diagnostics.stopwatch]::StartNew()
 #Variables
 
 #Path Variables
-$DataPath = $Path + $Data
-$CryptPath = $Path + $Crypt
-$CleanPath = $Path + $Clean
-$LogPath = $Path + $SMBLog
+$DataPath = $ENTPath + $Data
+$CryptPath = $ENTPath + $Crypt
+$CleanPath = $ENTPath + $Clean
+$LogPath = $ENTPath + $SMBLog
 
 #HIT Paths
-$EntropyHitPath = $Path + $EntropyData
-$MeanHitPath = $Path + $MeanData
-$ChiHitPath = $Path + $ChiData
-$MonteHitPath = $Path + $MonteData
-$SerialHitPath = $Path + $SerialData
+$EntropyHitPath = $ENTPath + $EntropyData
+$MeanHitPath = $ENTPath + $MeanData
+$ChiHitPath = $ENTPath + $ChiData
+$MonteHitPath = $ENTPath + $MonteData
+$SerialHitPath = $ENTPath + $SerialData
 
 #Clean Paths
-$EntropyCleanPath = $Path + $EntropyCleanData
-$MeanCleanPath = $Path + $MeanCleanData
-$ChiCleanPath = $Path + $ChiCleanData
-$MonteCleanPath = $Path + $MonteCleanData
-$SerialCleanPath = $Path + $SerialCleanData
+$EntropyCleanPath = $ENTPath + $EntropyCleanData
+$MeanCleanPath = $ENTPath + $MeanCleanData
+$ChiCleanPath = $ENTPath + $ChiCleanData
+$MonteCleanPath = $ENTPath + $MonteCleanData
+$SerialCleanPath = $ENTPath + $SerialCleanData
 
 
 #Encrypted Serial can also be negative
